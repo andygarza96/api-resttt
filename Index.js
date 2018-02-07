@@ -1,7 +1,7 @@
 
 var app = require('express')();
 var server = app.listen(3678, function(){
-    console.log('Example app listening on port  '+server.address().port);
+    console.log('Example app listening on port '+server.address().port);
 });
 /*
 Callback--- llamo a una funcion y le envío por parámetro otra función (un callback) esperando que la función que llamé se encargue de ejecutar esa función callback.
